@@ -21,6 +21,11 @@ export class Form extends Component {
     const { name, email, message } = this.state;
     const lead = { name, email, message };
     this.props.addLead(lead);
+    this.setState({
+      name: "",
+      email: "",
+      message: "",
+    });
   };
 
   render() {
@@ -49,9 +54,10 @@ export class Form extends Component {
               value={email}
             />
           </div>
+
           <div className="form-group">
             <label>Message</label>
-            <input
+            <textarea
               type="text"
               className="form-control"
               name="message"

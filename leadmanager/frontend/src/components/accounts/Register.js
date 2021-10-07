@@ -61,7 +61,7 @@ export class Register extends Component {
                 value={password2}
               />
             </div>
-            <div className="form-group">
+            <div className="form-group mt-2">
               <button type="submit" className="btn btn-primary">
                 Register
               </button>

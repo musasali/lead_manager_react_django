@@ -21,7 +21,7 @@ export class Header extends Component {
             <a className="navbar-brand" href="#">
               Lead Manager
             </a>
-            <ul className="navbar-nav ml-auto mt-2 mt-lg-0 justify-content-end">
+            <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
               <li className="nav-item">
                 <Link to="/register" className="nav-link">
                   Register
